@@ -1,0 +1,23 @@
+body{
+    background-color: rgba(242, 238, 255, 0.76);
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-container{
+    position: absolute;
+    top: 0;
+    width: 100svw;
+}
+
+.nav-container .links{
+    display: flex;
+    justify-content: center;
+    column-gap: 5rem;
+    /* background-color: rgba(217, 211, 255, 0.76); */
+    padding: 1rem;
+}
+
+.nav-container .links .link{
+    font-size: 1.3rem;
+}
